@@ -7,12 +7,6 @@ FluxStorm is an educational implementation of a stormwater drainage analysis sys
 - Network analysis techniques
 - Python object-oriented programming
 
-## Table of Contents
-- [Key Features](#key-features)
-- [Core Components](#core-components)
-- [Usage Examples](#usage-examples)
-- [Analysis Methods](#analysis-methods)
-
 ## Key Features
 - **Graph-Based Modeling**: Represents drainage networks as directed graphs
 - **Kosaraju's Algorithm**: Identifies strongly connected components (SCCs) in drainage networks

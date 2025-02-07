@@ -75,8 +75,7 @@ class FluxStorm:
             if neighbor not in visited:
                 self._dfs_second_pass(neighbor, visited, current_scc)
                 
-    def find_strongly_connected_components(self) -> List[Set[str]]:
-        """Implementation of Kosaraju's algorithm"""
+    def search_network(self) -> List[Set[str]]:
         visited = set()
         finish_order = []
         
